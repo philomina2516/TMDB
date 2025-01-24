@@ -1,0 +1,122 @@
+.img-container {
+    margin-top: 10px;
+    height: 550px;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 6%; 
+    overflow: hidden;
+  }
+  
+  .card-title{
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    overflow: hidden;
+    text-wrap: nowrap;
+  }
+  
+  .bottom-center {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    padding-left: 45%;
+    font-size: x-large;
+  }
+  
+  .inner-img:hover {
+    height: 400px;
+    width: 100%;
+    /* opacity: 0.5; */
+    /* padding-left: 10%; */
+    /* padding-top: 10px; */
+  }
+  
+  .text-content {
+    margin-top: 15px;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px 20px;
+  }
+  
+  .row {
+    padding: 60px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      /* margin-bottom: 20px; */
+    }
+  }
+  
+  .card {
+    border-radius: 20px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    padding: 16px;
+    height: 550px;
+    width: 100%;
+    text-align: center;
+    background-color: #b7d5b7;
+  }
+  
+  .pagination {
+    display: flex;
+    padding-left: 46%;
+    display: inline-block;
+  }
+  
+  .pagination p {
+    color: rgb(0, 0, 0);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .button{
+    height: 40px;
+    width: 30px;
+    padding-left: 60%;
+  }  
+
+.movie-card-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.emoji-btn {
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.emoji-btn:hover {
+  transform: scale(1.3);
+}

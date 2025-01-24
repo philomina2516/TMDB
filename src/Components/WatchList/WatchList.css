@@ -1,0 +1,140 @@
+.main_header {
+  background-color: #082445;
+  padding: 20px 20px 20px 90px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.logo img {
+  height: 80px;
+}
+.header_content {
+  display: flex;
+  gap: 20px;
+  margin-top: 3px;
+  height: 40px;
+  font-size: x-large;
+  font-weight: bold;
+  color: rgb(205, 201, 201);
+}
+
+.content_value {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.watchlist-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b0bfae;
+    /* padding-left: 40%; */
+  }
+
+  .search-button{
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #2020df;
+    color: #ffffff;
+    font-size: 16px;  }
+  
+  .filter-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    align-items: center;
+    padding-left: 20%;
+  }
+  
+  .filter-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    color: #555;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .filter-buttons button.active {
+    background-color: hsl(217, 91%, 63%);
+    color: #fff;
+  }
+  
+  .search-bar {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    width: 40%;
+    padding: 10px;
+    text-align: left;
+    /* border: 1px solid #ddd;
+    border-radius: 20px; */
+    font-size: 16px;
+    /* outline: none; */
+  }
+  
+  .watchlist-table {
+    margin: 20px auto;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    border-color: rgb(0, 70, 46);
+    overflow: hidden;
+    box-shadow: 0 4px 5px rgba(0, 255, 30, 0.1);
+  }
+  
+  .watchlist-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .watchlist-table th,
+  .watchlist-table td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .watchlist-table th {
+    font-weight: bold;
+      background-color: #032d63;
+      color: white;
+    
+  }
+  
+  .watchlist-table td {
+    border-top: 1px solid #f0f0f0;
+  }
+  
+  .watchlist-table tr:hover {
+    background-color: #f9f9f9;
+    
+  }
+
+  tr:nth-child(even){background-color: #f2f2f2}
+
+  .movie-poster {
+    width: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .delete-btn {
+    color: #e74c3c;
+    cursor: pointer;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  
+  .delete-btn:hover {
+    color: #c0392b;
+  }
+  

@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.logo img {
+  height: 80px;
+}
+
+.search-bar {
+  flex-grow: 1;
+  margin: 0 20px;
+  position: relative;
+  padding-right: 30px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.search-bar input::placeholder {
+  color: #bbb;
+}
+
+.location-dropdown {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.location-dropdown select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #fff;
+  appearance: none;
+  cursor: pointer;
+}
+
+.sign-in {
+  background-color: #e50914;
+  color: #fff;
+  padding: 9px 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sign-in:hover {
+  background-color: #c40812;
+}
